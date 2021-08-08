@@ -11,7 +11,7 @@ public class StreamCharacters {
     TrieNode root;
     StringBuilder sb;
     
-    public StreamChecker(String[] words) {
+    public void StreamChecker(String[] words) {
         root = new TrieNode();
         sb = new StringBuilder();
         for(String word: words) {
